@@ -33,7 +33,7 @@ Untuk mengambil data, harus menggunakan prepared statement untuk menghindari [SQ
 
   // contoh mengambil semua data sekaligus
   $rows = $statement->fetchAll(PDO::FETCH_ASSOC);
-  $rows[0]['nama'] // mengambil nama ddari data pertama 
+  $rows[0]['nama'] // mengambil nama dari data pertama 
 
 ```
 Untuk parameter dari metode fetch / fetchAll bisa dilihat di [dokumentasi fetch](https://www.php.net/manual/en/pdostatement.fetch.php)
